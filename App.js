@@ -2,13 +2,15 @@ import { View, Text , StyleSheet } from 'react-native'
 import React from 'react'
 import Logo from './components/Logo';
 import Styles from './components/Styles';
+import Stysheet from './components/Stysheet';
 
 const App = () => {
   return (
     <View style={Styles.container}>
-      <Text style={[Styles.title,Styles.warning]}>Hello, React Native</Text>
-      <Logo/>
-      <Styles/>
+      {/* <Text style={[Styles.title,Styles.warning]}>Hello, React Native</Text> */}
+      {/* <Logo/> */}
+      {/* <Styles/> */}
+      <Stysheet/>
     </View>
   )
 }
