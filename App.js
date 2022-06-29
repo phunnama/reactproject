@@ -11,7 +11,8 @@ const App = () => {
       <Text>Button Example</Text>
       <Button
       onPress={showData}
-      title="CLICK ME"/>
+      title="CLICK ME"
+      color="red"/>
     </View>
   )
 }
