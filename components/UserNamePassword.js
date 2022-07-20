@@ -36,7 +36,6 @@ const UserNamePassword = () => {
         placeholder="Email"
         />
 
-        
         <Button onPress={checkTextInput} title="Submit" 
         style={styles.submitButton}/>
     </View>
