@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View ,TextInput , Button} from 'react-native'
 import React,{useState} from 'react'
 
-const UserNameandPassword = () => {
+const UserNamePassword = () => {
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
 
