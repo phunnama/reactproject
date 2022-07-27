@@ -13,6 +13,7 @@ const ImageWithTextInput = () => {
 
           <TextInput style={{ flex: 1 }} placeholder="Enter Your name here" />
         </View>
+        <sectionStyle/>
       </View>
     </View>
   );
