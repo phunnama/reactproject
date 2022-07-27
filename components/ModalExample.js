@@ -4,7 +4,7 @@ import React,{useState} from 'react'
 const ModalExample = () => {
     const[showModal,setShowModal] = useState(false)
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex:1}}>
         <View style={styles.container}>
             <Modal
             animationType={'slide'}
