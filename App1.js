@@ -1,26 +1,24 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View,Button,TextInput } from "react-native";
+import { StyleSheet, Text, View,Button } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import React from "react";
+import HomeScreen from "./screens/HomeScreen";
+import AboutScreen from "./screens/AboutScreen";
 
-import FirstPage from "./screens/FirstPage";
-import SecondPage from "./screens/SecondPage";
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='First Page'
+      <Stack.Navigator initialRouteName='Home'
       screenOptions={{
         headerStyle:{backgroundColor:'#008b8b'},
       headerTintColor:'#FFFF',
       headerTitleStyle:{fontWeight:'bold',fontSize:30}
       }}>
-        <Stack.Screen name='First Page' component={FirstPage} />
-        <Stack.Screen name='Second Page' component={SecondPage}/>
-      
+        <Stack.Screen name='Home' component={HomeScreen} />
+        <Stack.Screen name='About' component={AboutScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
