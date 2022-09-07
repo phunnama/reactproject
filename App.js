@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Butto, Image } from "react-native";
+import { StyleSheet, Text, View, Butto, Image,SafeAreaView } from "react-native";
 import React from "react";
 
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
