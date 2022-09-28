@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Button,Image ,SafeAreaView} from "react-native";
 import React from "react";
 import HomeScreen from "./screens/HomeScreen";
-import ProductScreen from "./ProductScreen";
+import ProductScreen from "./screens/ProductScreen";
 
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";

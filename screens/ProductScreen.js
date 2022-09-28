@@ -16,7 +16,7 @@ const ProductScreen = () => {
     const getData = async () => {
       const res = await axios.get("https://api.codingthailand.com/api/course");
       console.log(res.data.data);
-      alert(JSON.stringify(res.data.data));
+      //alert(JSON.stringify(res.data.data));
       setProduct(res.data.data);
     };
     getData();
